@@ -1,0 +1,44 @@
+/*reset css  重置样式*/
+*,::before,::after {
+    margin: 0;
+    padding: 0;
+
+    /*针对移动端*/
+    /*主流移动端浏览器兼容*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /*点击高亮效果取消*/
+    -webkit-tap-highlight-color: transparent;
+
+
+
+}
+
+body {
+    font-size: 14px;
+
+    font-family: 'Microsoft YaHei',sans-serif;
+}
+ul ,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+a:hover {
+    text-decoration: none;
+}
+input,textarea {
+    outline: none;
+    border: none;
+    resize: none;
+
+    /*清除移动端输入框特有的样式*/
+    -webkit-appearance: none;
+
+}
+
+

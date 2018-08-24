@@ -1,0 +1,25 @@
+
+/*公司文字介绍*/
+.introduce-text {
+    width: 800px;
+    margin: 0 auto;
+
+}
+.introduce-text p {
+    font-size: 16px;
+    line-height: 28px;
+    text-indent: 2em;
+}
+
+/*公司图片*/
+.introduce-img {
+    margin: 50px auto;
+}
+.introduce-img img {
+    display: inline-block;
+    margin: 0px 45px;
+}
+.introduce-img img:first-child{
+    display: block;
+    margin: 50px auto;
+}

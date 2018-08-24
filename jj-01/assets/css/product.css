@@ -1,0 +1,124 @@
+/*产品服务*/
+.produce {
+    height: 1400px;
+}
+.product ul {
+    overflow: hidden;
+}
+.product ul li {
+    width: 33.3333%;
+    padding: 0 30px;
+    float: left;
+    height: 300px;
+    color: #a9a9a9;
+}
+
+.product ul li .produce-img {
+    width: 218px;
+    height: 118px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+
+}
+.product ul li .produce-img:hover img {
+    transform: scale(1.1);
+}
+
+
+.product ul li .produce-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.product ul li .produce-img .produce-icon {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/prod-img/weishangcheng_icon.png") no-repeat center 50px;
+    -webkit-background-size: 50px 50px;
+    background-size: 50px 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.product ul li:nth-child(2) .produce-img .produce-icon {
+    background: url("../images/prod-img/weizhan_icon.png") no-repeat center 50px;
+    -webkit-background-size: 50px 50px;
+    background-size: 50px 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.product ul li:nth-child(3) .produce-img .produce-icon {
+    background: url("../images/prod-img/kelaidian_icon.png") no-repeat center 50px;
+    -webkit-background-size: 50px 50px;
+    background-size: 50px 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.product ul li:nth-child(4) .produce-img .produce-icon {
+    background: url("../images/prod-img/xiaosoutui_icon.png") no-repeat center 50px;
+    -webkit-background-size: 50px 50px;
+    background-size: 50px 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.product ul li:nth-child(5) .produce-img .produce-icon {
+    background: url("../images/prod-img/canyin_icon.png") no-repeat center 50px;
+    -webkit-background-size: 50px 50px;
+    background-size: 50px 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.product ul li:nth-child(6) .produce-img .produce-icon {
+    background: url("../images/prod-img/xiaosoutui_icon.png") no-repeat center 50px;
+    -webkit-background-size: 50px 50px;
+    background-size: 50px 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.product ul li:nth-child(7) .produce-img .produce-icon {
+    background: url("../images/prod-img/meiye_icon.png") no-repeat center 50px;
+    -webkit-background-size: 50px 50px;
+    background-size: 50px 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.product ul li:nth-child(8) .produce-img .produce-icon {
+    background: url("../images/prod-img/waima_icon.png") no-repeat center 50px;
+    -webkit-background-size: 50px 50px;
+    background-size: 50px 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.product ul li:nth-child(9) .produce-img .produce-icon {
+    background: url("../images/prod-img/huiwu_icon.png") no-repeat center 50px;
+    -webkit-background-size: 50px 50px;
+    background-size: 50px 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.product ul li:nth-child(10) .produce-img .produce-icon {
+    background: url("../images/prod-img/biaodan_icon.png") no-repeat center 50px;
+    -webkit-background-size: 50px 50px;
+    background-size: 50px 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.product ul li:nth-child(11) .produce-img .produce-icon {
+    background: url("../images/prod-img/wangpu_icon.png") no-repeat center 50px;
+    -webkit-background-size: 50px 50px;
+    background-size: 50px 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.product ul li .produce-img:hover .produce-icon{
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+
+.product ul li .produce-text {
+    margin-top: 25px;
+}
+.product ul li .produce-text p{
+    text-indent: 2em;
+}
+

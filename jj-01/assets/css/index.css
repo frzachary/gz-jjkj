@@ -1,0 +1,238 @@
+
+
+/***公司简介***/
+.jj_introduce {
+    position: relative;
+    height: 700px;
+
+}
+.jj_introduce .jj_introduce_text {
+    width: 705px;
+    height: 400px;
+    background: #e8e8e8;
+    float: right;
+    padding: 20px 70px;
+
+}
+.jj_introduce .jj_introduce_text h5 {
+    font-size: 16px;
+    color:#a6a6a6;
+    text-align: center;
+
+}
+.jj_introduce .jj_introduce_text p{
+    text-indent: 2em;
+    font-size: 14px;
+    color:#a6a6a6;
+    margin-top: 40px;
+
+
+}
+
+.jj_introduce .jj_introduce_text .text_blue {
+    float: right;
+    color: #38b7d8;
+    margin-top: 150px;
+}
+
+.jj_introduce .jj_introduce_img {
+
+    width: 550px;
+    height: 377px;
+    box-shadow: 5px 5px 10px 4px rgba(0,0,0,0.3);
+
+    position: absolute;
+    top: 300px;
+
+}
+.jj_introduce .jj_introduce_img img {
+    width: 100%;
+    height: 100%;
+}
+
+/****产品介绍****/
+.jj_product .jj_product_head {
+    margin-top: 250px;
+}
+.jj_product ul li {
+    position: relative;
+    display: inline-block;
+    width: 230px;
+    height: 270px;
+    overflow: hidden;
+    margin-right: 89px;
+
+}
+.jj_product ul li:last-child {
+    margin-right: 0;
+}
+.jj_product ul li>img {
+    width: 100%;
+    height: 100%;
+}
+.jj_product ul li div>span {
+    color:#fff;
+    font-size: 18px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.jj_product ul li .product_icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/index-img/wsc.png") no-repeat  center 60%;
+    -webkit-background-size: 60px 60px;
+    background-size: 60px 60px;
+    background-color: rgba(0,0,0,0.7);
+}
+.jj_product ul li:nth-child(2) .product_icon{
+     background: url("../images/index-img/wz.png") no-repeat  center 60%;
+    -webkit-background-size: 60px 60px;
+    background-size: 60px 60px;
+    background-color: rgba(0,0,0,0.7);
+
+}
+.jj_product ul li:nth-child(3) .product_icon{
+    background: url("../images/index-img/kld.png") no-repeat  center 60%;
+    -webkit-background-size: 60px 60px;
+    background-size: 60px 60px;
+    background-color: rgba(0,0,0,0.7);
+
+}
+.jj_product ul li:nth-child(4) .product_icon{
+    background: url("../images/index-img/xst.png") no-repeat  center 60%;
+    -webkit-background-size: 60px 60px;
+    background-size: 60px 60px;
+    background-color: rgba(0,0,0,0.7);
+
+}
+.jj_product ul li:hover{
+    box-shadow: 5px 5px 10px 4px rgba(0,0,0,0.3);
+
+}
+.jj_product ul li:hover .product_icon{
+    top: -10%;
+}
+
+.jj_product ul li .jj_product_text {
+    width: 100%;
+    height: 40%;
+    background-color: #fff;
+    color:#000;
+    text-indent: 2em;
+    font-size: 14px;
+    padding: 5px 10px;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: none;
+
+
+}
+.jj_product ul li:hover .jj_product_text {
+    display: block;
+}
+
+
+/*****经典案例******/
+.jj_case .case-ban {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    border: 1px solid #ccc;
+
+}
+.jj_case .case-ban .case-ban-con {
+
+    width: 100%;
+    height: 100%;
+
+}
+.jj_case .case-ban-con .ban-con {
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.jj_case .case-ban-con div>span {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 0;
+    background: #38b7d8;
+    color:#fff;
+}
+.jj_case .case-ban-con div>img {
+    width: 100%;
+    height: auto;
+
+}
+.jj_case .case-ban .ban_control{
+    width: 50px;
+    height: 50px;
+
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -25px;
+    cursor: pointer;
+
+    -webkit-background-size: 50px 50px;
+    background-size: 50px 50px;
+
+
+
+}
+.jj_case .case-ban .ban_next {
+
+    background: url("../images/index-img/index-jlt_01.png") no-repeat 0 -337px;
+    background-color: rgba(0,0,0,0.5);
+}
+.jj_case .case-ban .ban_prev {
+    left: 0;
+    background: url("../images/index-img/index-jlt_01.png") no-repeat 0 -280px;
+    background-color: rgba(0,0,0,0.5);
+}
+.jj_case .case-ban .ban_point {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+}
+.jj_case .case-ban .ban_point>li {
+    float: left;
+    height: 5px;
+    width: 50px;
+    background: #ddd;
+    margin-left: 20px;
+}
+.jj_case .case-ban .ban_point>li:first-child {
+    margin-left: 0;
+}
+.jj_case .case-ban .ban_point .ban_active {
+    background: #38b7d8;
+}
+
+
+    /***加入我们****/
+.jj_join .join_us {
+    width: 800px;
+    margin: 0 auto;
+}
+.jj_join .join_us img {
+    display: block;
+    margin: 30px auto;
+}
+.jj_join .join_us p {
+    text-indent: 2em;
+    font-size: 16px;
+}
